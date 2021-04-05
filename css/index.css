@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-color: #a0c6e9;
+}
+
+.info {
+  background-color: #e3eebf;
+  width: 30%;
+  padding: 1%;
+  margin: auto;
+  color: navy;
+  font-size: 130%;
+  font-family: monospace;
+}
+
+button {
+  color: white;
+  background-color: navy;
+}
+
+@media (max-width: 768px) {
+  .info {
+    width: 95%;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 415px) {
+  window {
+    orientation: landscape;
+  }
+}
