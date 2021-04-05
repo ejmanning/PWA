@@ -30,7 +30,7 @@ function reset() {
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("../serviceWorker.js")
+      .register("PWA/serviceWorker.js")
       .then(res => console.log("Service worker registered"))
       .catch(err => console.log("Service worker not registered", err));
   });
